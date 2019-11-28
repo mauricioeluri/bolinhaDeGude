@@ -9,6 +9,13 @@ import java.util.ArrayList;
  */
 public class JogoDC extends JogoBolinha {
 
+    /**
+     * Função que eecuta a busca utilizando o método divisão e conquista
+     * Primeiramente, criamos uma cópia da lista de bolinhas, e 
+     * então, a ordenamos.
+     * Logo, para cada consulta, fazemos uma busca binária
+     * na lista.
+     */
     public void executa() {
         ArrayList<Integer> listaOrdenada = ordenaBolinhas();
         for (int consulta : getConsultas()) {
@@ -17,7 +24,32 @@ public class JogoDC extends JogoBolinha {
             setaResultado(consulta, resultado);
         }
     }
+    
+    /**
+     * Função que ordena a lista de bolinhas, utiliza o paradigma BubbleSort 
+     * para efetuar a ordenação.
+     * @return bolinhasOrdenado
+     */
+    private ArrayList<Integer> ordenaBolinhas() {
+        BubbleSort bs = new BubbleSort((ArrayList<Integer>) getBolinhas().clone());
+        bs.sort();
+        return bs.getList();
+    }
 
+    /**
+     * A função buscaBinária é uma função recursiva, a qual recebe como
+     * parâmetros uma lista ordenada, o valor mínimo máximo da lista, e o
+     * valor que está sendo consultado.
+     * Esta função verifica se o valor selecionado está no meio da lista,
+     * caso não esteja, ela quebra a lista em 2, chamando novamente esta
+     * função.
+     * Caso o valor selecionado não seja encontrado, é retornado o valor -1
+     * @param bolinhas
+     * @param minimo
+     * @param maximo
+     * @param consulta
+     * @return resultado
+     */
     private int buscaBinaria(ArrayList<Integer> bolinhas,
             int minimo, int maximo, int consulta) {
         int meio = ((maximo + minimo) / 2);
@@ -32,16 +64,5 @@ public class JogoDC extends JogoBolinha {
         } else {
             return buscaBinaria(bolinhas, minimo, meio - 1, consulta);
         }
-    }
-
-    /**
-     * Função que ordena a lista de bolinhas, utiliza o paradigma BubbleSort 
-     * para efetuar a ordenação.
-     * @return bolinhasOrdenado
-     */
-    private ArrayList<Integer> ordenaBolinhas() {
-        BubbleSort bs = new BubbleSort((ArrayList<Integer>) getBolinhas().clone());
-        bs.sort();
-        return bs.getList();
     }
 }
