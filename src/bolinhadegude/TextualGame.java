@@ -9,10 +9,18 @@ import java.util.Scanner;
  */
 public class TextualGame {
 
-    Scanner scanner = new Scanner(System.in);
-    int nro_bolinhas = 1, nro_consultas = 1;
-    int nro_caso = 1;
+    private Scanner scanner = new Scanner(System.in);
+    private int nro_bolinhas = 1, nro_consultas = 1;
+    private int nro_caso = 1;
 
+    /**
+     * Função para receber um número válido pelo usuário.
+     * Processa a entrada do usuário e valida se esta entrada é válida,
+     * exibe uma mensagem caso a entrada for inválida, e repete este 
+     * processo até que uma entrada válida seja inserida.
+     * Utiliza a função validaEntrada para testar se a entrada é válida.
+     * @return entrada
+     */
     public int recebeInt() {
         boolean valorValido;
         String entrada;
@@ -27,7 +35,12 @@ public class TextualGame {
         return Integer.parseInt(entrada.trim());
     }
 
-    public boolean validaEntrada(String entrada) {
+    /**
+     * Função booleana que testa se a entrada é válida.
+     * @param entrada
+     * @return boolean
+     */
+    private boolean validaEntrada(String entrada) {
         try {
             int entradaConvertido = Integer.parseInt(entrada.trim());
             if (entradaConvertido >= 0 && entradaConvertido <= 10000) {
@@ -38,6 +51,12 @@ public class TextualGame {
         return false;
     }
 
+    /**
+     * Processamento textual do jogo da bolinha,
+     * foi utilizada a implementação em brute force para 
+     * processamento.
+     * @param args 
+     */
     public static void main(String[] args) {
         TextualGame tg = new TextualGame();
 

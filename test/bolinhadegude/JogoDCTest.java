@@ -24,10 +24,10 @@ public class JogoDCTest {
     @Test
     public void testListaDesordenada() {
         jogo.executa();
-        assertEquals(0, jogo.bolinhas.indexOf(3));
-        assertEquals(1, jogo.bolinhas.indexOf(2));
-        assertEquals(2, jogo.bolinhas.indexOf(4));
-        assertEquals(3, jogo.bolinhas.indexOf(1));
+        assertEquals(0, jogo.getBolinhas().indexOf(3));
+        assertEquals(1, jogo.getBolinhas().indexOf(2));
+        assertEquals(2, jogo.getBolinhas().indexOf(4));
+        assertEquals(3, jogo.getBolinhas().indexOf(1));
     }
 
     @Test

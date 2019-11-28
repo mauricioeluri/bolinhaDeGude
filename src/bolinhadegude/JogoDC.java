@@ -11,18 +11,18 @@ public class JogoDC extends JogoBolinha {
 
     public void executa() {
         ArrayList<Integer> listaOrdenada = ordenaBolinhas();
-        for (int consulta : consultas) {
+        for (int consulta : getConsultas()) {
             int resultado = buscaBinaria(listaOrdenada, 0,
                     listaOrdenada.size() - 1, consulta);
             setaResultado(consulta, resultado);
         }
     }
 
-    public int buscaBinaria(ArrayList<Integer> bolinhas,
+    private int buscaBinaria(ArrayList<Integer> bolinhas,
             int minimo, int maximo, int consulta) {
         int meio = ((maximo + minimo) / 2);
         if (bolinhas.get(meio) == consulta) {
-            return this.bolinhas.indexOf(
+            return getBolinhas().indexOf(
                     bolinhas.get(meio));
         }
         if (minimo >= maximo) {
@@ -34,16 +34,14 @@ public class JogoDC extends JogoBolinha {
         }
     }
 
-    public ArrayList<Integer> ordenaBolinhas() {
-        BubbleSort bs = new BubbleSort((ArrayList<Integer>) bolinhas.clone());
+    /**
+     * Função que ordena a lista de bolinhas, utiliza o paradigma BubbleSort 
+     * para efetuar a ordenação.
+     * @return bolinhasOrdenado
+     */
+    private ArrayList<Integer> ordenaBolinhas() {
+        BubbleSort bs = new BubbleSort((ArrayList<Integer>) getBolinhas().clone());
         bs.sort();
         return bs.getList();
-    }
-
-    private void setaResultado(int consulta, int result) {
-        int[] resultado = new int[2];
-        resultado[0] = consulta;
-        resultado[1] = result;
-        resultados.add(resultado);
     }
 }

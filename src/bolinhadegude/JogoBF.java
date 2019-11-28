@@ -8,21 +8,31 @@ package bolinhadegude;
  */
 public class JogoBF extends JogoBolinha {
 
-    public int[] executaConsulta(int consulta) {
-        int[] resultado = new int[2];
-        resultado[0] = consulta;
-        resultado[1] = -1;
-        for (int i = 1; i < bolinhas.size(); i++) {
-            if (consulta == bolinhas.get(i - 1)) {
-                resultado[1] = i - 1;
+    /**
+     * Método para executar o processamento dos resultados do jogo, utilizando o
+     * paradigma de Força bruta. Ao fim do processamento, chama a função que
+     * seta o resultado na lista de resultados.
+     *
+     * @param consulta
+     */
+    private void executaConsulta(int consulta) {
+        int resultado = -1;
+        for (int i = 1; i < getBolinhas().size(); i++) {
+            if (consulta == getBolinhas().get(i - 1)) {
+                resultado = i - 1;
             }
         }
-        return resultado;
+        setaResultado(consulta, resultado);
     }
 
+    /**
+     * Método que executa todas as consultas necessárias para processar os
+     * resultados. Para cada consulta na lista de consultas, chama o método
+     * executaConsulta, e adiciona seu resultado na lista de resultados.
+     */
     public void executa() {
-        for (int consulta : consultas) {
-            resultados.add(executaConsulta(consulta));
+        for (int consulta : getConsultas()) {
+            executaConsulta(consulta);
         }
     }
 }
