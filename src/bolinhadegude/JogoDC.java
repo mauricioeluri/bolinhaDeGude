@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class JogoDC extends JogoBolinha {
 
     /**
-     * Função que eecuta a busca utilizando o método divisão e conquista
+     * Função que executa a busca utilizando o método divisão e conquista
      * Primeiramente, criamos uma cópia da lista de bolinhas, e 
      * então, a ordenamos.
      * Logo, para cada consulta, fazemos uma busca binária
