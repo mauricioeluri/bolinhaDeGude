@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class TextualGame {
 
-    private Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
     private int nro_bolinhas = 1, nro_consultas = 1;
     private int nro_caso = 1;
 
@@ -82,7 +82,6 @@ public class TextualGame {
                 System.out.println("CASO#" + tg.nro_caso++);
                 jogo.executa();
                 System.out.print(jogo.getResultadosTxt());
-                jogo = null;
             }
         }
     }

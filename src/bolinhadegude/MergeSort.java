@@ -72,7 +72,7 @@ public class MergeSort {
      * @param dir
      * @return
      */
-    public ArrayList<Integer> mergeSort(int esq, int dir) {
+    private ArrayList<Integer> mergeSort(int esq, int dir) {
         if (esq != dir) {
             int meio = ((esq + dir) / 2);
             ArrayList<Integer> listEsq;
@@ -109,7 +109,7 @@ public class MergeSort {
      * @param listDir
      * @return listaOrdenada
      */
-    public ArrayList<Integer> merge(ArrayList<Integer> listEsq,
+    private ArrayList<Integer> merge(ArrayList<Integer> listEsq,
             ArrayList<Integer> listDir) {
 
         ArrayList<Integer> listOrdenada = new ArrayList<>();

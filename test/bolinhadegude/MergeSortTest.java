@@ -21,16 +21,19 @@ public class MergeSortTest {
     public void testaListNull() {
         ms = new MergeSort(null);
     }
+    
+//    TESTES DO MÉTODO PRIVATO MERGE
+//    PARA TESTAR, MUDAR PARA PÚBLICO OU UTILIZAR REFLECTION
 //
 //    @Test
 //    public void testMerge() {
 //        list.add(10);
 //        list.add(20);
 //        ms = new MergeSort(list);
-//        assertEquals(list, ms.merge(0, 0, 1, 1));
+//        assertEquals(list, ms.merge(0, 1));
 //    }
-    
-    
+//    
+//    
 //    @Test
 //    public void testMerge() {
 //        ArrayList<Integer> listEsq = new ArrayList<>();
@@ -49,30 +52,30 @@ public class MergeSortTest {
 //        assertEquals(list, ms.merge(listEsq, listDir));
 //    }
 //    
-    @Test
-    public void testMerge2Elem() {
-        ArrayList<Integer> listEsq = new ArrayList<>();
-        ArrayList<Integer> listDir = new ArrayList<>();
-        listEsq.add(1);
-        listDir.add(2);
-        list.add(1);
-        list.add(2);
-        ms = new MergeSort(list);
-        assertEquals(list, ms.merge(listEsq, listDir));
-    }
-    
-    @Test
-    public void testMerge2ElemDes() {
-        ArrayList<Integer> listEsq = new ArrayList<>();
-        ArrayList<Integer> listDir = new ArrayList<>();
-        listEsq.add(2);
-        listDir.add(1);
-        list.add(1);
-        list.add(2);
-        ms = new MergeSort(list);
-        ArrayList<Integer> resultado = ms.merge(listEsq, listDir);
-        assertEquals(list, resultado);
-    }
+//    @Test
+//    public void testMerge2Elem() {
+//        ArrayList<Integer> listEsq = new ArrayList<>();
+//        ArrayList<Integer> listDir = new ArrayList<>();
+//        listEsq.add(1);
+//        listDir.add(2);
+//        list.add(1);
+//        list.add(2);
+//        ms = new MergeSort(list);
+//        assertEquals(list, ms.merge(listEsq, listDir));
+//    }
+//    
+//    @Test
+//    public void testMerge2ElemDes() {
+//        ArrayList<Integer> listEsq = new ArrayList<>();
+//        ArrayList<Integer> listDir = new ArrayList<>();
+//        listEsq.add(2);
+//        listDir.add(1);
+//        list.add(1);
+//        list.add(2);
+//        ms = new MergeSort(list);
+//        ArrayList<Integer> resultado = ms.merge(listEsq, listDir);
+//        assertEquals(list, resultado);
+//    }
 
     @Test
     public void ListVazio() {

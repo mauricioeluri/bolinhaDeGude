@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.MergeSortTest" skipped="0" tests="11" time="0.09" timestamp="2019-12-05T07:38:56">
+<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.MergeSortTest" skipped="0" tests="9" time="0.095" timestamp="2019-12-05T07:55:55">
   <properties>
     <property name="default.javac.source" value="1.8" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -81,7 +81,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.MergeSortTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.MergeSortTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher6190861087211039659.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit2001650809888339158.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.MergeSortTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.MergeSortTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher2883059524176581715.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit8438273725424597756.properties" />
     <property name="built-jar.properties" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build/built-jar.properties" />
     <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="ant.file" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build.xml" />
@@ -272,17 +272,15 @@
     <property name="mkdist.disabled" value="false" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="bolinhadegude.MergeSortTest" name="testMerge2Elem" time="0.003" />
-  <testcase classname="bolinhadegude.MergeSortTest" name="mantemListaOriginal" time="0.0" />
-  <testcase classname="bolinhadegude.MergeSortTest" name="list1Elemento" time="0.001" />
-  <testcase classname="bolinhadegude.MergeSortTest" name="array2ElemDesordenado" time="0.001" />
+  <testcase classname="bolinhadegude.MergeSortTest" name="mantemListaOriginal" time="0.002" />
+  <testcase classname="bolinhadegude.MergeSortTest" name="list1Elemento" time="0.0" />
+  <testcase classname="bolinhadegude.MergeSortTest" name="array2ElemDesordenado" time="0.0" />
   <testcase classname="bolinhadegude.MergeSortTest" name="testaMaiorNoFinal" time="0.001" />
   <testcase classname="bolinhadegude.MergeSortTest" name="testOrdenacao2" time="0.0" />
   <testcase classname="bolinhadegude.MergeSortTest" name="testOrdenacao" time="0.0" />
   <testcase classname="bolinhadegude.MergeSortTest" name="listJaOrdenado" time="0.0" />
   <testcase classname="bolinhadegude.MergeSortTest" name="ListVazio" time="0.0" />
   <testcase classname="bolinhadegude.MergeSortTest" name="testaListNull" time="0.001" />
-  <testcase classname="bolinhadegude.MergeSortTest" name="testMerge2ElemDes" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

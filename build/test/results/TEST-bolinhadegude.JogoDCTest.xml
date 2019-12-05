@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.JogoDCTest" skipped="0" tests="6" time="0.096" timestamp="2019-12-05T07:38:56">
+<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.JogoDCTest" skipped="0" tests="6" time="0.089" timestamp="2019-12-05T07:55:55">
   <properties>
     <property name="default.javac.source" value="1.8" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -81,7 +81,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.JogoDCTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.JogoDCTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher936086010197259065.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit1183573073489945415.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.JogoDCTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.JogoDCTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher7043140294972836543.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit2297826143429151111.properties" />
     <property name="built-jar.properties" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build/built-jar.properties" />
     <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="ant.file" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build.xml" />
@@ -272,12 +272,12 @@
     <property name="mkdist.disabled" value="false" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="bolinhadegude.JogoDCTest" name="testResultado2" time="0.003" />
+  <testcase classname="bolinhadegude.JogoDCTest" name="testResultado2" time="0.005" />
   <testcase classname="bolinhadegude.JogoDCTest" name="testResultado3" time="0.0" />
-  <testcase classname="bolinhadegude.JogoDCTest" name="testResultado4" time="0.0" />
-  <testcase classname="bolinhadegude.JogoDCTest" name="testAleatorio" time="0.0" />
+  <testcase classname="bolinhadegude.JogoDCTest" name="testResultado4" time="0.001" />
+  <testcase classname="bolinhadegude.JogoDCTest" name="testAleatorio" time="0.001" />
   <testcase classname="bolinhadegude.JogoDCTest" name="testResultado" time="0.0" />
-  <testcase classname="bolinhadegude.JogoDCTest" name="testListaDesordenada" time="0.0" />
+  <testcase classname="bolinhadegude.JogoDCTest" name="testListaDesordenada" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
