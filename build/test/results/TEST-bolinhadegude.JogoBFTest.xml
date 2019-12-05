@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.JogoBFTest" skipped="0" tests="4" time="0.097" timestamp="2019-11-27T20:04:07">
+<testsuite errors="0" failures="0" hostname="mdk" name="bolinhadegude.JogoBFTest" skipped="0" tests="4" time="0.083" timestamp="2019-12-05T07:38:55">
   <properties>
     <property name="default.javac.source" value="1.8" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -81,8 +81,7 @@
     <property name="ant.project.default-target" value="default" />
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.JogoBFTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.JogoBFTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher2192299110277669674.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit6990181071508443678.properties" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|mdk" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bolinhadegude.JogoBFTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/results/TEST-bolinhadegude.JogoBFTest.xml crashfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junitvmwatcher5391047864814475964.properties propsfile=/home/mauricio/NetBeansProjects/BolinhaDeGude/build/junit1947395978087025455.properties" />
     <property name="built-jar.properties" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build/built-jar.properties" />
     <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="ant.file" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build.xml" />
@@ -105,8 +104,8 @@
     <property name="libs.javac-api.maven-pom" value="" />
     <property name="javadoc.private" value="false" />
     <property name="annotation.processing.processors.list" value="" />
-    <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="ant.file.type.BolinhaDeGude-impl" value="file" />
     <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="test.binaryexcludes" value="" />
@@ -116,7 +115,6 @@
     <property name="ap.cmd.line.internal" value="" />
     <property name="jdkBug6558476" value="false" />
     <property name="java.failonerror" value="true" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|mdk" />
     <property name="libs.junit_4.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
     <property name="libs.beans-binding.maven-pom" value="" />
@@ -143,23 +141,23 @@
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="os.name" value="Linux" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="nb.wait.for.caches" value="true" />
     <property name="run.test.classpath" value=":build/classes:/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar:/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="nb.wait.for.caches" value="true" />
     <property name="do.archive+main.class.available" value="true" />
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
     <property name="libs.CopyLibs.src" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
     <property name="libs.beans-binding.src" value="" />
-    <property name="ap.supported.internal" value="true" />
     <property name="java.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/bin/../jre/lib/amd64:/usr/lib/jvm/java-8-openjdk-amd64/bin/../jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="ap.supported.internal" value="true" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="ant.java.version" value="1.8" />
     <property name="libs.hamcrest.javadoc" value="" />
     <property name="java.class.version" value="52.0" />
-    <property name="jna.boot.library.name" value="jnidispatch.system" />
     <property name="javadoc.noindex" value="false" />
+    <property name="jna.boot.library.name" value="jnidispatch.system" />
     <property name="basedir" value="/home/mauricio/NetBeansProjects/BolinhaDeGude" />
     <property name="javac.test.classpath" value=":build/classes:/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar:/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="javac.processorpath" value="" />
@@ -173,26 +171,26 @@
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="libs.PostgreSQLDriver.classpath" value="/usr/share/netbeans/8.1/ide/modules/ext/postgresql-9.2-1002.jdbc4.jar" />
     <property name="junit.forkmode" value="perTest" />
-    <property name="libs.junit_4.classpath" value="/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar" />
     <property name="test.binarytestincludes" value="" />
+    <property name="libs.junit_4.classpath" value="/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar" />
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
-    <property name="dist.archive.excludes" value="" />
     <property name="build.dir" value="build" />
+    <property name="dist.archive.excludes" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="libs.testng.classpath" value="/usr/share/netbeans/8.1/platform/modules/ext/testng-6.8.1-dist.jar" />
     <property name="libs.jpa20-persistence.javadoc" value="" />
     <property name="javadoc.encoding.used" value="UTF-8" />
-    <property name="javadoc.windowtitle" value="" />
     <property name="libs.testng.javadoc" value="" />
+    <property name="javadoc.windowtitle" value="" />
     <property name="libs.hamcrest.classpath" value="/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="netbeans.productversion" value="NetBeans IDE 8.1 (Build 20170419-debian-8.1)" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
     <property name="run.jvmargs.ide" value="" />
     <property name="annotation.processing.enabled" value="true" />
+    <property name="run.jvmargs" value="" />
     <property name="nb.junit.single" value="false" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
-    <property name="run.jvmargs" value="" />
     <property name="build.compiler.emacs" value="true" />
     <property name="ant.project.name" value="BolinhaDeGude" />
     <property name="libs.swing-layout.classpath" value="/usr/share/netbeans/8.1/platform/modules/ext/swing-layout-1.0.4.jar" />
@@ -205,8 +203,8 @@
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
     <property name="netbeans.default_userdir_root" value="/home/mauricio/.netbeans" />
     <property name="os.version" value="4.9.0-11-amd64" />
-    <property name="jna.loaded" value="true" />
     <property name="excludes" value="" />
+    <property name="jna.loaded" value="true" />
     <property name="user.home" value="/home/mauricio" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -218,14 +216,15 @@
     <property name="sun.cpu.endian" value="little" />
     <property name="compile.on.save" value="true" />
     <property name="ignore.failing.tests" value="true" />
-    <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="jar.index" value="false" />
+    <property name="netbeans.automatic.build" value="true" />
+    <property name="libs.MySQLDriver.src" value="" />
     <property name="java.vm.version" value="25.232-b09" />
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
-    <property name="libs.MySQLDriver.src" value="" />
-    <property name="annotation.processing.processor.options" value="" />
     <property name="java.class.path" value="/home/mauricio/NetBeansProjects/BolinhaDeGude/build/classes:/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar:/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar:/home/mauricio/NetBeansProjects/BolinhaDeGude/build/test/classes:/usr/share/netbeans/8.1/java/ant/lib/junit.jar:/usr/share/netbeans/8.1/java/ant/lib/ant-launcher.jar:/usr/share/netbeans/8.1/java/ant/lib/ant.jar:/usr/share/netbeans/8.1/java/ant/lib/ant-junit.jar:/usr/share/netbeans/8.1/java/ant/lib/ant-junit4.jar" />
+    <property name="annotation.processing.processor.options" value="" />
     <property name="nb.internal.action.name" value="test" />
     <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
@@ -243,37 +242,37 @@
     <property name="do.depend" value="false" />
     <property name="file.separator" value="/" />
     <property name="java.runtime.version" value="1.8.0_232-8u232-b09-1~deb9u1-b09" />
-    <property name="debug.test.classpath" value=":build/classes:/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar:/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+    <property name="debug.test.classpath" value=":build/classes:/usr/share/netbeans/8.1/platform/modules/ext/junit-4.12.jar:/usr/share/netbeans/8.1/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
     <property name="javax.accessibility.assistive_technologies" value="org.GNOME.Accessibility.AtkWrapper" />
     <property name="nb.junit.batch" value="true" />
     <property name="libs.beans-binding.classpath" value="/usr/share/netbeans/8.1/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="main.class" value="bolinhadegude.TextualGame" />
     <property name="have.tests" value="true" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
-    <property name="jnidispatch.path" value="/usr/lib/x86_64-linux-gnu/jni/libjnidispatch.system.so" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="jnidispatch.path" value="/usr/lib/x86_64-linux-gnu/jni/libjnidispatch.system.so" />
     <property name="libs.javac-api.classpath" value="/usr/share/netbeans/8.1/java/modules/ext/nb-javac-api.jar" />
     <property name="user.country" value="BR" />
     <property name="javadoc.notree" value="false" />
     <property name="default.javac.target" value="1.8" />
-    <property name="javadoc.additionalparam" value="" />
     <property name="javac.classpath" value="" />
+    <property name="javadoc.additionalparam" value="" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="do.archive+manifest.available" value="true" />
     <property name="libs.swing-layout.src" value="" />
     <property name="libs.swing-layout.javadoc" value="" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="javac.target" value="1.8" />
-    <property name="libs.eclipselink.classpath" value="/usr/share/netbeans/8.1/java/modules/ext/eclipselink/eclipselink.jar:/usr/share/netbeans/8.1/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/usr/share/netbeans/8.1/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
     <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="libs.eclipselink.classpath" value="/usr/share/netbeans/8.1/java/modules/ext/eclipselink/eclipselink.jar:/usr/share/netbeans/8.1/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/usr/share/netbeans/8.1/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
     <property name="runtime.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.8" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
-    <property name="sun.arch.data.model" value="64" />
     <property name="mkdist.disabled" value="false" />
+    <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="bolinhadegude.JogoBFTest" name="testRetornoTextual2" time="0.002" />
+  <testcase classname="bolinhadegude.JogoBFTest" name="testRetornoTextual2" time="0.001" />
   <testcase classname="bolinhadegude.JogoBFTest" name="testRetornoTextual" time="0.0" />
   <testcase classname="bolinhadegude.JogoBFTest" name="test1Entrada" time="0.002" />
   <testcase classname="bolinhadegude.JogoBFTest" name="test2Entradas" time="0.0" />

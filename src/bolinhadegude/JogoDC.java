@@ -31,9 +31,9 @@ public class JogoDC extends JogoBolinha {
      * @return bolinhasOrdenado
      */
     private ArrayList<Integer> ordenaBolinhas() {
-        BubbleSort bs = new BubbleSort((ArrayList<Integer>) getBolinhas().clone());
-        bs.sort();
-        return bs.getList();
+        MergeSort ms = new MergeSort((ArrayList<Integer>) getBolinhas().clone());
+        ms.sort();
+        return ms.getList();
     }
 
     /**
