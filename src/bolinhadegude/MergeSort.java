@@ -27,18 +27,6 @@ public class MergeSort {
     }
 
     /**
-     * Método utilizado para trocar dois valores de lugar na lista
-     *
-     * @param index1
-     * @param index2 Recebe os indentificadores dos dois valores da lista
-     */
-    private void trocaValoresList(int index1, int index2) {
-        int temporario = list.get(index1);
-        list.set(index1, list.get(index2));
-        list.set(index2, temporario);
-    }
-
-    /**
      * Método utilizado para retornar a lista
      *
      * @return list
@@ -58,19 +46,19 @@ public class MergeSort {
     }
 
     /**
-     * MergeSort - este método recebe dois valores inteiros, o valor do extremo
+     * MergeSort - esta função recebe dois valores inteiros, o valor do extremo
      * esquerdo da lista e o valor do extremo direito da lista. Ele vai fazendo
      * chamadas recursivas dele mesmo, dividindo a lista em 2, até que receba um
      * valor de esquerda e direita igual. Ou seja, apenas um elemento - e quando
      * isto acontece, esta função devolve uma lista contendo o elemento
      * selecionado. Depois de fazer duas chamadas recursivas dele mesmo,
-     * dividindo a lista entre estas chamadas, ele chama o método merge,
+     * dividindo a lista entre estas chamadas, ele chama o função merge,
      * passando estas duas listas como parâmetro, o qual devolve uma lista que é
      * a junção destas duas listas e de forma ordenada.
      *
      * @param esq
      * @param dir
-     * @return
+     * @return arrayOrdenado
      */
     private ArrayList<Integer> mergeSort(int esq, int dir) {
         if (esq != dir) {
